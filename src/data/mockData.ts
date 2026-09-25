@@ -15,20 +15,15 @@ import {
   FareRecord,
 } from '../types';
 
-export const HISTORICAL_INDEX_SERIES: IndexDataPoint[] = [
-  { date: '2023-01', label: "Jan '23", indexValue: 100.0, momChangePct: 0.0, yoyChangePct: 0.0, dgcaBenchmarkFare: 4200, computedWeightedFare: 4200, deviationPct: 0.0, isBasePeriod: true },
-  { date: '2023-02', label: "Feb '23", indexValue: 101.4, momChangePct: 1.4, yoyChangePct: 1.4, dgcaBenchmarkFare: 4280, computedWeightedFare: 4258, deviationPct: -0.5 },
-  { date: '2023-03', label: "Mar '23", indexValue: 104.2, momChangePct: 2.8, yoyChangePct: 4.2, dgcaBenchmarkFare: 4350, computedWeightedFare: 4376, deviationPct: 0.6 },
-  { date: '2023-04', label: "Apr '23", indexValue: 103.8, momChangePct: -0.4, yoyChangePct: 3.8, dgcaBenchmarkFare: 4380, computedWeightedFare: 4359, deviationPct: -0.5 },
-  { date: '2023-05', label: "May '23", indexValue: 108.5, momChangePct: 4.5, yoyChangePct: 8.5, dgcaBenchmarkFare: 4520, computedWeightedFare: 4557, deviationPct: 0.8 },
-  { date: '2023-06', label: "Jun '23", indexValue: 111.2, momChangePct: 2.5, yoyChangePct: 11.2, dgcaBenchmarkFare: 4690, computedWeightedFare: 4670, deviationPct: -0.4 },
-  { date: '2023-07', label: "Jul '23", indexValue: 107.9, momChangePct: -3.0, yoyChangePct: 7.9, dgcaBenchmarkFare: 4560, computedWeightedFare: 4531, deviationPct: -0.6 },
-  { date: '2023-08', label: "Aug '23", indexValue: 109.8, momChangePct: 1.8, yoyChangePct: 9.8, dgcaBenchmarkFare: 4600, computedWeightedFare: 4611, deviationPct: 0.2 },
-  { date: '2023-09', label: "Sep '23", indexValue: 112.4, momChangePct: 2.4, yoyChangePct: 12.4, dgcaBenchmarkFare: 4710, computedWeightedFare: 4720, deviationPct: 0.2 },
-  { date: '2023-10', label: "Oct '23", indexValue: 116.8, momChangePct: 3.9, yoyChangePct: 16.8, dgcaBenchmarkFare: 4890, computedWeightedFare: 4905, deviationPct: 0.3 },
-  { date: '2023-11', label: "Nov '23", indexValue: 121.5, momChangePct: 4.0, yoyChangePct: 21.5, dgcaBenchmarkFare: 5050, computedWeightedFare: 5103, deviationPct: 1.0 },
-  { date: '2023-12', label: "Dec '23", indexValue: 123.1, momChangePct: 1.3, yoyChangePct: 23.1, dgcaBenchmarkFare: 5140, computedWeightedFare: 5170, deviationPct: 0.6 },
-  { date: '2024-01', label: "Jan '24", indexValue: 124.7, momChangePct: 3.2, yoyChangePct: 18.4, dgcaBenchmarkFare: 5210, computedWeightedFare: 5237, deviationPct: 0.5 },
+export const HISTORICAL_INDEX_SERIES: IndexDataPoint[] = [  { date: '2026-01', label: "Jan '26", indexValue: 100.0, momChangePct: 0.0, yoyChangePct: 0.0, dgcaBenchmarkFare: 4200, computedWeightedFare: 4200, deviationPct: 0.0, isBasePeriod: true },
+  { date: '2026-02', label: "Feb '26", indexValue: 101.4, momChangePct: 1.4, yoyChangePct: 1.4, dgcaBenchmarkFare: 4280, computedWeightedFare: 4258, deviationPct: -0.5 },
+  { date: '2026-03', label: "Mar '26", indexValue: 104.2, momChangePct: 2.8, yoyChangePct: 4.2, dgcaBenchmarkFare: 4350, computedWeightedFare: 4376, deviationPct: 0.6 },
+  { date: '2026-04', label: "Apr '26", indexValue: 103.8, momChangePct: -0.4, yoyChangePct: 3.8, dgcaBenchmarkFare: 4380, computedWeightedFare: 4359, deviationPct: -0.5 },
+  { date: '2026-05', label: "May '26", indexValue: 108.5, momChangePct: 4.5, yoyChangePct: 8.5, dgcaBenchmarkFare: 4520, computedWeightedFare: 4557, deviationPct: 0.8 },
+  { date: '2026-06', label: "Jun '26", indexValue: 111.2, momChangePct: 2.5, yoyChangePct: 11.2, dgcaBenchmarkFare: 4690, computedWeightedFare: 4670, deviationPct: -0.4 },
+  { date: '2026-07', label: "Jul '26", indexValue: 107.9, momChangePct: -3.0, yoyChangePct: 7.9, dgcaBenchmarkFare: 4560, computedWeightedFare: 4531, deviationPct: -0.6 },
+  { date: '2026-08', label: "Aug '26", indexValue: 109.8, momChangePct: 1.8, yoyChangePct: 9.8, dgcaBenchmarkFare: 4600, computedWeightedFare: 4611, deviationPct: 0.2 },
+  { date: '2026-09', label: "Sep '26", indexValue: 112.4, momChangePct: 2.4, yoyChangePct: 12.4, dgcaBenchmarkFare: 4710, computedWeightedFare: 4720, deviationPct: 0.2 },
 ];
 
 export const BACKTEST_30_DAYS: BacktestResult[] = [
@@ -48,7 +43,7 @@ export const BACKTEST_30_DAYS: BacktestResult[] = [
 export const ANOMALY_RECORDS: AnomalyRecord[] = [
   {
     id: 'ANOM-10491',
-    detectionTime: '2023-10-27 14:32:05',
+    detectionTime: '2026-11-15 14:32:05',
     routeId: 'DEL-BOM',
     origin: 'DEL',
     destination: 'BOM',
@@ -64,7 +59,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10488',
-    detectionTime: '2023-10-27 14:15:22',
+    detectionTime: '2026-11-15 14:15:22',
     routeId: 'BLR-CCU',
     origin: 'BLR',
     destination: 'CCU',
@@ -80,7 +75,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10482',
-    detectionTime: '2023-10-27 13:58:10',
+    detectionTime: '2026-11-15 13:58:10',
     routeId: 'BOM-GOI',
     origin: 'BOM',
     destination: 'GOI',
@@ -96,7 +91,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10475',
-    detectionTime: '2023-10-27 13:40:05',
+    detectionTime: '2026-11-15 13:40:05',
     routeId: 'HYD-MAA',
     origin: 'HYD',
     destination: 'MAA',
@@ -112,7 +107,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10469',
-    detectionTime: '2023-10-27 13:12:44',
+    detectionTime: '2026-11-15 13:12:44',
     routeId: 'DEL-PNQ',
     origin: 'DEL',
     destination: 'PNQ',
@@ -128,7 +123,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10461',
-    detectionTime: '2023-10-27 12:45:18',
+    detectionTime: '2026-11-15 12:45:18',
     routeId: 'DEL-GOI',
     origin: 'DEL',
     destination: 'GOI',
@@ -144,7 +139,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10452',
-    detectionTime: '2023-10-27 11:20:30',
+    detectionTime: '2026-11-15 11:20:30',
     routeId: 'DEL-GAU',
     origin: 'DEL',
     destination: 'GAU',
@@ -160,7 +155,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
   },
   {
     id: 'ANOM-10440',
-    detectionTime: '2023-10-27 09:15:00',
+    detectionTime: '2026-11-15 09:15:00',
     routeId: 'MAA-DEL',
     origin: 'MAA',
     destination: 'DEL',
@@ -168,7 +163,7 @@ export const ANOMALY_RECORDS: AnomalyRecord[] = [
     expectedFare: 4800,
     actualFare: 4750,
     deviationPct: -1.0,
-    flagType: 'ELEVATED',
+    flagType: 'NORMAL',
     severity: 'resolved',
     status: 'resolved',
     advanceDays: 15,
@@ -180,7 +175,7 @@ export const FESTIVALS_DATA: FestivalEvent[] = [
   {
     id: 'fest-dussehra',
     name: 'Dussehra / Vijayadashami',
-    date: '2024-10-12',
+    date: '2026-10-20',
     type: 'major_festival',
     surgeMultiplier: 1.385,
     historicSurgePct: 38.5,
@@ -191,7 +186,7 @@ export const FESTIVALS_DATA: FestivalEvent[] = [
   {
     id: 'fest-diwali',
     name: 'Diwali Festive Window',
-    date: '2024-11-01',
+    date: '2026-11-08',
     type: 'major_festival',
     surgeMultiplier: 1.651,
     historicSurgePct: 65.1,
@@ -202,7 +197,7 @@ export const FESTIVALS_DATA: FestivalEvent[] = [
   {
     id: 'fest-chhat',
     name: 'Chhath Puja Corridor',
-    date: '2024-11-07',
+    date: '2026-11-15',
     type: 'major_festival',
     surgeMultiplier: 1.580,
     historicSurgePct: 58.0,
@@ -213,7 +208,7 @@ export const FESTIVALS_DATA: FestivalEvent[] = [
   {
     id: 'fest-xmas-ny',
     name: 'Christmas & New Year Eve',
-    date: '2024-12-25',
+    date: '2026-12-25',
     type: 'major_festival',
     surgeMultiplier: 1.824,
     historicSurgePct: 82.4,
@@ -224,7 +219,7 @@ export const FESTIVALS_DATA: FestivalEvent[] = [
   {
     id: 'fest-holi',
     name: 'Holi Festival',
-    date: '2025-03-14',
+    date: '2026-03-04',
     type: 'major_festival',
     surgeMultiplier: 1.410,
     historicSurgePct: 41.0,
@@ -240,9 +235,9 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'IndiGo Direct Domestic',
     carrierOrSource: 'IndiGo (6E)',
     status: 'ACTIVE',
-    lastRun: '2023-10-27 14:32:01',
+    lastRun: '2026-11-15 14:32:01',
     recordsFetched: 12450,
-    nextScheduledRun: '2023-10-27 15:00:00',
+    nextScheduledRun: '2026-11-15 15:00:00',
     errorCount: 2,
     avgLatencyMs: 240,
     complianceChecked: true,
@@ -253,9 +248,9 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'Air India Metro Grid',
     carrierOrSource: 'Air India (AI)',
     status: 'IDLE',
-    lastRun: '2023-10-27 14:00:05',
+    lastRun: '2026-11-15 14:00:05',
     recordsFetched: 8920,
-    nextScheduledRun: '2023-10-27 16:00:00',
+    nextScheduledRun: '2026-11-15 16:00:00',
     errorCount: 0,
     avgLatencyMs: 310,
     complianceChecked: true,
@@ -266,7 +261,7 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'SpiceJet Tier-2 Feeder',
     carrierOrSource: 'SpiceJet (SG)',
     status: 'FAILED',
-    lastRun: '2023-10-27 14:15:22',
+    lastRun: '2026-11-15 14:15:22',
     recordsFetched: 0,
     nextScheduledRun: 'Will Retry (2/3)',
     errorCount: 14,
@@ -279,9 +274,9 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'Vistara Aggregator Node',
     carrierOrSource: 'Vistara (UK)',
     status: 'ACTIVE',
-    lastRun: '2023-10-27 14:45:10',
+    lastRun: '2026-11-15 14:45:10',
     recordsFetched: 3105,
-    nextScheduledRun: '2023-10-27 15:30:00',
+    nextScheduledRun: '2026-11-15 15:30:00',
     errorCount: 1,
     avgLatencyMs: 195,
     complianceChecked: true,
@@ -292,9 +287,9 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'Akasa Air Direct Feed',
     carrierOrSource: 'Akasa Air (QP)',
     status: 'IDLE',
-    lastRun: '2023-10-27 13:30:12',
+    lastRun: '2026-11-15 13:30:12',
     recordsFetched: 2480,
-    nextScheduledRun: '2023-10-27 15:30:00',
+    nextScheduledRun: '2026-11-15 15:30:00',
     errorCount: 3,
     avgLatencyMs: 280,
     complianceChecked: true,
@@ -305,9 +300,9 @@ export const SCRAPER_NODES: ScraperNode[] = [
     target: 'MakeMyTrip Public Quoting',
     carrierOrSource: 'MakeMyTrip (OTA)',
     status: 'ACTIVE',
-    lastRun: '2023-10-27 14:20:00',
+    lastRun: '2026-11-15 14:20:00',
     recordsFetched: 9800,
-    nextScheduledRun: '2023-10-27 15:20:00',
+    nextScheduledRun: '2026-11-15 15:20:00',
     errorCount: 0,
     avgLatencyMs: 380,
     complianceChecked: true,
@@ -316,7 +311,7 @@ export const SCRAPER_NODES: ScraperNode[] = [
 ];
 
 export const INITIAL_SCRAPER_LOGS: ScraperLog[] = [
-  { id: '1', timestamp: '14:45:10', nodeId: 'VIST-METRO-02', level: 'SUCCESS', message: '[INFO] [CORE] Authenticating with proxy rotation service... Session established.' },
+  { id: '1', timestamp: '14:45:10', nodeId: 'VIST-METRO-02', level: 'SUCCESS', message: '[INFO] [CORE] Establishing compliant collection session... Session established.' },
   { id: '2', timestamp: '14:45:11', nodeId: 'VIST-METRO-02', level: 'INFO', message: '[INFO] [ROBOTS.TXT] Checking /robots.txt compliance... OK. Politeness delay: 1500ms.' },
   { id: '3', timestamp: '14:45:14', nodeId: 'VIST-METRO-02', level: 'INFO', message: '[INGEST] Ingested 3,105 quotes across 14 routes and 5 advance purchase windows (T+1..T+45).' },
   { id: '4', timestamp: '14:45:15', nodeId: 'VIST-METRO-02', level: 'SUCCESS', message: '[PARSER] Deconstructed fare components: base_fare, taxes, UDF, convenience_fee verified.' },
@@ -339,7 +334,7 @@ export const DATA_QUALITY_SUMMARY: DataQualitySummary = {
 export const QUALITY_ERROR_LOGS: QualityErrorLog[] = [
   {
     id: 'QERR-901',
-    timestamp: '2023-10-27 14:32:01',
+    timestamp: '2026-11-15 14:32:01',
     source: 'Akasa Air Feed',
     errorType: 'ERR_CONN_REFUSED',
     severity: 'CRITICAL',
@@ -347,7 +342,7 @@ export const QUALITY_ERROR_LOGS: QualityErrorLog[] = [
   },
   {
     id: 'QERR-902',
-    timestamp: '2023-10-27 12:15:44',
+    timestamp: '2026-11-15 12:15:44',
     source: 'Vistara Aggregator',
     errorType: 'WARN_TIMEOUT_4000MS',
     severity: 'WARNING',
@@ -355,11 +350,11 @@ export const QUALITY_ERROR_LOGS: QualityErrorLog[] = [
   },
   {
     id: 'QERR-903',
-    timestamp: '2023-10-27 11:05:12',
+    timestamp: '2026-11-15 11:05:12',
     source: 'Data Pipeline',
     errorType: 'ERR_DUPLICATE_KEY_SQL',
     severity: 'RESOLVED',
-    resolvedTime: '2023-10-27 11:05:14',
+    resolvedTime: '2026-11-15 11:05:14',
     details: 'Duplicate quote timestamp filtered by deduplication hash window.',
   }
 ];
