@@ -139,7 +139,6 @@ export const OverviewPage: React.FC<OverviewPageProps> = ({ onNavigate, onOpenEx
           value="124.7"
           trend="+3.2%"
           trendPositive={true}
-          subText="Jan 2023 = 100"
         />
         <KpiCard
           id="kpi-avg-fare"

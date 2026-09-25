@@ -35,7 +35,7 @@ interface AiForecastingPageProps {
 
 export const AiForecastingPage: React.FC<AiForecastingPageProps> = ({ onNavigate }) => {
   const [selectedRouteId, setSelectedRouteId] = useState('DEL-BOM');
-  const [travelDate, setTravelDate] = useState('2023-11-15');
+  const [travelDate, setTravelDate] = useState('2023-10-15');
   const [advanceDays, setAdvanceDays] = useState(7);
   const [cabinClass, setCabinClass] = useState('Economy');
   const [isRunning, setIsRunning] = useState(false);

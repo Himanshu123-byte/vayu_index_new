@@ -17,44 +17,46 @@ interface FestivalIntelligencePageProps {
 }
 
 export const FestivalIntelligencePage: React.FC<FestivalIntelligencePageProps> = ({ onNavigate }) => {
-  const [selectedMonth, setSelectedMonth] = useState('October 2024');
+  const [selectedMonth, setSelectedMonth] = useState('October 2026');
 
-  // October 2024 Calendar Grid
-  // Oct 1 starts on Tuesday (offset = 2)
+  // October 2026 Calendar Grid
+  // Oct 1 starts on Thursday (offset = 4)
   const calendarDays = [
     { day: null, date: null },
     { day: null, date: null },
-    { day: 1, date: '2024-10-01', type: 'normal' },
-    { day: 2, date: '2024-10-02', type: 'holiday', label: 'Gandhi Jayanti' },
-    { day: 3, date: '2024-10-03', type: 'normal' },
-    { day: 4, date: '2024-10-04', type: 'normal' },
-    { day: 5, date: '2024-10-05', type: 'normal' },
-    { day: 6, date: '2024-10-06', type: 'normal' },
-    { day: 7, date: '2024-10-07', type: 'normal' },
-    { day: 8, date: '2024-10-08', type: 'normal' },
-    { day: 9, date: '2024-10-09', type: 'normal' },
-    { day: 10, date: '2024-10-10', type: 'normal' },
-    { day: 11, date: '2024-10-11', type: 'festival', label: 'Maha Navami' },
-    { day: 12, date: '2024-10-12', type: 'surge', label: 'Dussehra (+38.5%)' },
-    { day: 13, date: '2024-10-13', type: 'normal' },
-    { day: 14, date: '2024-10-14', type: 'normal' },
-    { day: 15, date: '2024-10-15', type: 'normal' },
-    { day: 16, date: '2024-10-16', type: 'normal' },
-    { day: 17, date: '2024-10-17', type: 'normal' },
-    { day: 18, date: '2024-10-18', type: 'normal' },
-    { day: 19, date: '2024-10-19', type: 'normal' },
-    { day: 20, date: '2024-10-20', type: 'surge', label: 'Pre-Diwali Alert' },
-    { day: 21, date: '2024-10-21', type: 'normal' },
-    { day: 22, date: '2024-10-22', type: 'normal' },
-    { day: 23, date: '2024-10-23', type: 'normal' },
-    { day: 24, date: '2024-10-24', type: 'normal' },
-    { day: 25, date: '2024-10-25', type: 'normal' },
-    { day: 26, date: '2024-10-26', type: 'normal' },
-    { day: 27, date: '2024-10-27', type: 'normal' },
-    { day: 28, date: '2024-10-28', type: 'normal' },
-    { day: 29, date: '2024-10-29', type: 'festival', label: 'Dhanteras' },
-    { day: 30, date: '2024-10-30', type: 'festival', label: 'Choti Diwali' },
-    { day: 31, date: '2024-10-31', type: 'surge', label: 'Diwali Eve (+65.1%)' },
+    { day: null, date: null },
+    { day: null, date: null },
+    { day: 1, date: '2026-10-01', type: 'normal' },
+    { day: 2, date: '2026-10-02', type: 'holiday', label: 'Gandhi Jayanti' },
+    { day: 3, date: '2026-10-03', type: 'normal' },
+    { day: 4, date: '2026-10-04', type: 'normal' },
+    { day: 5, date: '2026-10-05', type: 'normal' },
+    { day: 6, date: '2026-10-06', type: 'normal' },
+    { day: 7, date: '2026-10-07', type: 'normal' },
+    { day: 8, date: '2026-10-08', type: 'normal' },
+    { day: 9, date: '2026-10-09', type: 'normal' },
+    { day: 10, date: '2026-10-10', type: 'normal' },
+    { day: 11, date: '2026-10-11', type: 'festival', label: 'Maha Navami' },
+    { day: 12, date: '2026-10-12', type: 'surge', label: 'Dussehra (+38.5%)' },
+    { day: 13, date: '2026-10-13', type: 'normal' },
+    { day: 14, date: '2026-10-14', type: 'normal' },
+    { day: 15, date: '2026-10-15', type: 'normal' },
+    { day: 16, date: '2026-10-16', type: 'normal' },
+    { day: 17, date: '2026-10-17', type: 'normal' },
+    { day: 18, date: '2026-10-18', type: 'normal' },
+    { day: 19, date: '2026-10-19', type: 'normal' },
+    { day: 20, date: '2026-10-20', type: 'surge', label: 'Pre-Diwali Alert' },
+    { day: 21, date: '2026-10-21', type: 'normal' },
+    { day: 22, date: '2026-10-22', type: 'normal' },
+    { day: 23, date: '2026-10-23', type: 'normal' },
+    { day: 24, date: '2026-10-24', type: 'normal' },
+    { day: 25, date: '2026-10-25', type: 'normal' },
+    { day: 26, date: '2026-10-26', type: 'normal' },
+    { day: 27, date: '2026-10-27', type: 'normal' },
+    { day: 28, date: '2026-10-28', type: 'normal' },
+    { day: 29, date: '2026-10-29', type: 'festival', label: 'Dhanteras' },
+    { day: 30, date: '2026-10-30', type: 'festival', label: 'Choti Diwali' },
+    { day: 31, date: '2026-10-31', type: 'surge', label: 'Diwali Eve (+65.1%)' },
   ];
 
   // Fare hike ranking
@@ -105,10 +107,10 @@ export const FestivalIntelligencePage: React.FC<FestivalIntelligencePageProps> =
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-800 font-mono">
                 EVENT PROXIMITY MATRIX
               </h3>
-              <span className="text-[11px] text-slate-400">Q4 2024 Sector Intensity Calendar</span>
+              <span className="text-[11px] text-slate-400">Q4 2026 Sector Intensity Calendar</span>
             </div>
             <span className="text-xs font-mono font-bold text-slate-800 bg-slate-100 px-2.5 py-1 rounded">
-              October 2024
+              October 2026
             </span>
           </div>
 

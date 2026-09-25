@@ -126,11 +126,11 @@ async function startServer() {
       },
       advanceElasticity: SAMPLE_ADVANCE_ELASTICITY,
       airlineComparison: [
-        { date: '2023-10-01', indiGo: 4200, airIndia: 4550, spiceJet: 3900, akasaAir: 3850, vistara: 5400 },
-        { date: '2023-10-08', indiGo: 4800, airIndia: 5100, spiceJet: 4400, akasaAir: 4300, vistara: 6100 },
-        { date: '2023-10-15', indiGo: 12450, airIndia: 11800, spiceJet: 9800, akasaAir: 9400, vistara: 14890 },
-        { date: '2023-10-22', indiGo: 3950, airIndia: 4300, spiceJet: 3750, akasaAir: 3600, vistara: 4900 },
-        { date: '2023-10-29', indiGo: 8200, airIndia: 8900, spiceJet: 7400, akasaAir: 7100, vistara: 10200 },
+        { date: '2026-10-01', indiGo: 4200, airIndia: 4550, spiceJet: 3900, akasaAir: 3850, vistara: 5400 },
+        { date: '2026-10-08', indiGo: 4800, airIndia: 5100, spiceJet: 4400, akasaAir: 4300, vistara: 6100 },
+        { date: '2026-10-15', indiGo: 12450, airIndia: 11800, spiceJet: 9800, akasaAir: 9400, vistara: 14890 },
+        { date: '2026-10-22', indiGo: 3950, airIndia: 4300, spiceJet: 3750, akasaAir: 3600, vistara: 4900 },
+        { date: '2026-10-29', indiGo: 8200, airIndia: 8900, spiceJet: 7400, akasaAir: 7100, vistara: 10200 },
       ],
     });
   });

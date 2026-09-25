@@ -76,7 +76,7 @@ export const PriceIndexPage: React.FC<PriceIndexPageProps> = ({ onNavigate, onOp
           </button>
           <div className="flex items-center gap-1.5 px-3 py-1.5 bg-[#0b192e] text-white rounded text-xs font-mono font-bold shadow-xs">
             <Calendar className="w-3.5 h-3.5 text-blue-400" />
-            <span>JAN 2024</span>
+            <span>OCT 2026</span>
           </div>
         </div>
       </div>
@@ -172,7 +172,7 @@ export const PriceIndexPage: React.FC<PriceIndexPageProps> = ({ onNavigate, onOp
                 </div>
               </div>
               <span className="text-[11px] text-slate-400">
-                {activeTab === 'trajectory' ? 'Jan 2023 – Present' : 'DGCA Published Average Fares vs Computed Index'}
+                {activeTab === 'trajectory' ? 'Jan 2026 – Present' : 'DGCA Published Average Fares vs Computed Index'}
               </span>
             </div>
 

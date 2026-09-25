@@ -34,7 +34,7 @@ interface RouteExplorerPageProps {
 export const RouteExplorerPage: React.FC<RouteExplorerPageProps> = ({ onNavigate, onOpenExport }) => {
   const [origin, setOrigin] = useState('DEL');
   const [destination, setDestination] = useState('BOM');
-  const [startDate, setStartDate] = useState('2023-10-01');
+  const [startDate, setStartDate] = useState('2026-10-01');
   const [endDate, setEndDate] = useState('2023-10-31');
   const [airlineFilter, setAirlineFilter] = useState('All Carriers');
   const [overlayFestivals, setOverlayFestivals] = useState(true);
@@ -413,7 +413,7 @@ export const RouteExplorerPage: React.FC<RouteExplorerPageProps> = ({ onNavigate
             </thead>
             <tbody className="divide-y divide-slate-100 font-mono">
               <tr className="hover:bg-slate-50">
-                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2023-10-01</td>
+                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2026-10-01</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹4,200</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹4,550</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹3,900</td>
@@ -421,7 +421,7 @@ export const RouteExplorerPage: React.FC<RouteExplorerPageProps> = ({ onNavigate
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹5,400</td>
               </tr>
               <tr className="hover:bg-slate-50">
-                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2023-10-08</td>
+                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2026-10-08</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹4,800</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹5,100</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹4,400</td>
@@ -430,7 +430,7 @@ export const RouteExplorerPage: React.FC<RouteExplorerPageProps> = ({ onNavigate
               </tr>
               <tr className="hover:bg-rose-50/50 bg-rose-50/20">
                 <td className="px-4 py-2.5 text-rose-900 font-sans font-medium flex items-center gap-1.5">
-                  <span>2023-10-15</span>
+                  <span>2026-10-15</span>
                   <span className="px-1 py-0.2 text-[9px] bg-rose-100 text-rose-700 rounded font-bold">Diwali Surge</span>
                 </td>
                 <td className="px-4 py-2.5 font-bold text-rose-700">₹12,450</td>
@@ -440,7 +440,7 @@ export const RouteExplorerPage: React.FC<RouteExplorerPageProps> = ({ onNavigate
                 <td className="px-4 py-2.5 font-bold text-rose-700">₹14,890</td>
               </tr>
               <tr className="hover:bg-slate-50">
-                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2023-10-22</td>
+                <td className="px-4 py-2.5 text-slate-700 font-sans font-medium">2026-10-22</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹3,950</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹4,300</td>
                 <td className="px-4 py-2.5 font-semibold text-slate-900">₹3,750</td>
